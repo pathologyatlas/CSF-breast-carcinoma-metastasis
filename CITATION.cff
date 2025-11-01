@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+authors:
+  - family-names: Balcı
+    given-names: Serdar
+    orcid: https://orcid.org/0000-0002-7852-3851
+title: "Breast Carcinoma Metastasis in Cerebrospinal Fluid / Beyin Omurilik Sıvıcında Meme Karsinom Metastazı"
+version: 1.0.0
+date-released: 2025-11-01
+url: "https://github.com/pathologyatlas/CSF-breast-carcinoma-metastasis"
+repository-code: "https://github.com/pathologyatlas/CSF-breast-carcinoma-metastasis"
+license: MIT
+keywords:
+  - pathology
+  - digital pathology
+  - whole slide image
+  - virtual microscopy
+  - Breast Carcinoma Metastasis in Cerebrospinal Fluid
+  - Beyin Omurilik Sıvıcında Meme Karsinom Metastazı
+abstract: "Digital pathology whole slide images for Breast Carcinoma Metastasis in Cerebrospinal Fluid / Beyin Omurilik Sıvıcında Meme Karsinom Metastazı"
