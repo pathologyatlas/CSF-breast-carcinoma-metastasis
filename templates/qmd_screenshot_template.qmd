@@ -1,0 +1,18 @@
+
+```{{r {{template}} screenshot {{stain}}, eval=TRUE, include=FALSE}}
+if (!file.exists("./screenshots/thumbnail_{{template}}-{{stain}}.png")) {{
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/{{template}}/{{stain}}.html",
+  file = "./screenshots/thumbnail_{{template}}-{{stain}}.png"
+)
+}}
+```
+
+```{{r {{template}} qrcode {{stain}}, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE}}
+if (!file.exists("./qrcodes/{{template}}-{{stain}}_qrcode.svg")) {{
+  qrcode_svg <- qrcode::qr_code("https://images.patolojiatlasi.com/{{template}}/{{stain}}.html")
+  qrcode::generate_svg(qrcode = qrcode_svg,
+                       filename = "./qrcodes/{{template}}-{{stain}}_qrcode.svg",
+                       show = FALSE)
+}}
+```

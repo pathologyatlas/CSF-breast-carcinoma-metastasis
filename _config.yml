@@ -1,0 +1,6 @@
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme
+show_downloads: true
+title: "Breast Carcinoma Metastasis in Cerebrospinal Fluid Beyin Omurilik Sıvıcında Meme Karsinom Metastazı"
+description: "Beyin Omurilik Sıvıcında Meme Karsinom Metastazı Breast Carcinoma Metastasis in Cerebrospinal Fluid"

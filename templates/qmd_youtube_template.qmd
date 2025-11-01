@@ -1,0 +1,14 @@
+
+### Video
+
+```{{asis, echo = (language == "TR")}}
+[Video İçin Tıklayın](https://www.youtube.com/watch?v={{youtube_link}})
+```
+
+```{{asis, echo = (language == "EN")}}
+[Click for Video](https://www.youtube.com/watch?v={{youtube_link}})
+```
+
+::: {{.content-visible when-format="html"}}
+{{{{< video https://www.youtube.com/embed/{{youtube_link}} >}}}}
+:::
